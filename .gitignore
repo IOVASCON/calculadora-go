@@ -13,9 +13,3 @@
 .vscode/
 .idea/
 *.sublime-project
-
-# Permitir imagens .png na pasta /images
-!/images/*.png
-
-# Ignorar todos os outros arquivos na pasta /images
-/images/*
