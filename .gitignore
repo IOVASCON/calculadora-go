@@ -1,0 +1,21 @@
+# Ignorar arquivos binários gerados pelo Go
+/bin/
+*.exe
+
+# Ignorar arquivos temporários e logs
+*.log
+*.tmp
+
+# Ignorar dependências locais (se necessário)
+/vendor/
+
+# Ignorar arquivos de IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# Permitir imagens .png na pasta /images
+!/images/*.png
+
+# Ignorar todos os outros arquivos na pasta /images
+/images/*
